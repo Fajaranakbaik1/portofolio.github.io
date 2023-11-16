@@ -150,7 +150,9 @@ body{
         left: 0;
         width: 200px;
         height: 100px;
-        margin-left: 45px;
+        margin-left: 66px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .header-logo {
         font-size: 15px;
