@@ -1,0 +1,41 @@
+@media screen and (max-width: 670px) {
+    .image {
+        width: 50%;
+        position: static;
+        transform: none;
+        left: 0;
+        display: flex;
+    }
+    .image img {
+        position: static;
+        transform: none;
+        right: 0;
+    }
+
+    .ketengahin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .btn-aboutMe{
+        width: 200px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content a {
+        display: flex;
+        align-items: center;
+    }
+    .ketengahin a{
+        font-size: 25px;
+    }
+
+}   

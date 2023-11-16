@@ -1,0 +1,56 @@
+body {
+    background-color: #081b29;
+}
+.time {
+    background-color: var(--second-bg-color);
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.timeline .container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background: var(--bg-color);
+}
+
+.text-box {
+    padding: 20px 30px 20px;
+    background: rgba(158, 148, 164, 0.281);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    box-shadow: 1px 2px 10px white;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
+.timeline .container img {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.mail a{
+    display: block;
+    font-size: 25px;
+    border: solid 2px;
+    border-radius: 50px;
+    display: inline-block;
+    color: rgb(91, 85, 85);
+    background-color: #081b29;
+    text-decoration: none;
+}
